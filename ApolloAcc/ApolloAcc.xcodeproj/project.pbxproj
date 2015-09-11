@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAF6EF371BA1B9E4009600A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6EF361BA1B9E4009600A5 /* AppDelegate.swift */; };
+		FAF6EF391BA1B9E4009600A5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6EF381BA1B9E4009600A5 /* ViewController.swift */; };
+		FAF6EF3C1BA1B9E4009600A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAF6EF3A1BA1B9E4009600A5 /* Main.storyboard */; };
+		FAF6EF3E1BA1B9E4009600A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAF6EF3D1BA1B9E4009600A5 /* Images.xcassets */; };
+		FAF6EF411BA1B9E4009600A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAF6EF3F1BA1B9E4009600A5 /* LaunchScreen.xib */; };
+		FAF6EF4D1BA1B9E4009600A5 /* ApolloAccTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6EF4C1BA1B9E4009600A5 /* ApolloAccTests.swift */; };
+		FAF6EF571BA1C406009600A5 /* parse in Resources */ = {isa = PBXBuildFile; fileRef = FAF6EF561BA1C406009600A5 /* parse */; };
+		FAF6EF5A1BA1C468009600A5 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF581BA1C468009600A5 /* Bolts.framework */; };
+		FAF6EF5B1BA1C468009600A5 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF591BA1C468009600A5 /* Parse.framework */; };
+		FAF6EF5D1BA1C492009600A5 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF5C1BA1C492009600A5 /* AudioToolbox.framework */; };
+		FAF6EF5F1BA1C49B009600A5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF5E1BA1C49B009600A5 /* CFNetwork.framework */; };
+		FAF6EF611BA1C4A4009600A5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF601BA1C4A4009600A5 /* CoreGraphics.framework */; };
+		FAF6EF631BA1C4AB009600A5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF621BA1C4AB009600A5 /* CoreLocation.framework */; };
+		FAF6EF651BA1C4B4009600A5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF641BA1C4B4009600A5 /* QuartzCore.framework */; };
+		FAF6EF671BA1C4BD009600A5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF661BA1C4BD009600A5 /* Security.framework */; };
+		FAF6EF6B1BA1C4D6009600A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF6A1BA1C4D6009600A5 /* SystemConfiguration.framework */; };
+		FAF6EF6D1BA1C4DE009600A5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF6C1BA1C4DE009600A5 /* libz.dylib */; };
+		FAF6EF6F1BA1C4F2009600A5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FAF6EF6E1BA1C4F2009600A5 /* libsqlite3.dylib */; };
+		FAF6EF711BA1DA14009600A5 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF6EF701BA1DA14009600A5 /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAF6EF471BA1B9E4009600A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAF6EF291BA1B9E4009600A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAF6EF301BA1B9E4009600A5;
+			remoteInfo = ApolloAcc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAF6EF311BA1B9E4009600A5 /* ApolloAcc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApolloAcc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF6EF351BA1B9E4009600A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF6EF361BA1B9E4009600A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAF6EF381BA1B9E4009600A5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAF6EF3B1BA1B9E4009600A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAF6EF3D1BA1B9E4009600A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAF6EF401BA1B9E4009600A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAF6EF461BA1B9E4009600A5 /* ApolloAccTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApolloAccTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAF6EF4B1BA1B9E4009600A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAF6EF4C1BA1B9E4009600A5 /* ApolloAccTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApolloAccTests.swift; sourceTree = "<group>"; };
+		FAF6EF561BA1C406009600A5 /* parse */ = {isa = PBXFileReference; lastKnownFileType = folder; path = parse; sourceTree = "<group>"; };
+		FAF6EF581BA1C468009600A5 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = parse/Bolts.framework; sourceTree = "<group>"; };
+		FAF6EF591BA1C468009600A5 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = parse/Parse.framework; sourceTree = "<group>"; };
+		FAF6EF5C1BA1C492009600A5 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FAF6EF5E1BA1C49B009600A5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FAF6EF601BA1C4A4009600A5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FAF6EF621BA1C4AB009600A5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FAF6EF641BA1C4B4009600A5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		FAF6EF661BA1C4BD009600A5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		FAF6EF6A1BA1C4D6009600A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FAF6EF6C1BA1C4DE009600A5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		FAF6EF6E1BA1C4F2009600A5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		FAF6EF701BA1DA14009600A5 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAF6EF2E1BA1B9E4009600A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6EF6F1BA1C4F2009600A5 /* libsqlite3.dylib in Frameworks */,
+				FAF6EF6D1BA1C4DE009600A5 /* libz.dylib in Frameworks */,
+				FAF6EF6B1BA1C4D6009600A5 /* SystemConfiguration.framework in Frameworks */,
+				FAF6EF671BA1C4BD009600A5 /* Security.framework in Frameworks */,
+				FAF6EF651BA1C4B4009600A5 /* QuartzCore.framework in Frameworks */,
+				FAF6EF631BA1C4AB009600A5 /* CoreLocation.framework in Frameworks */,
+				FAF6EF611BA1C4A4009600A5 /* CoreGraphics.framework in Frameworks */,
+				FAF6EF5F1BA1C49B009600A5 /* CFNetwork.framework in Frameworks */,
+				FAF6EF5D1BA1C492009600A5 /* AudioToolbox.framework in Frameworks */,
+				FAF6EF5B1BA1C468009600A5 /* Parse.framework in Frameworks */,
+				FAF6EF5A1BA1C468009600A5 /* Bolts.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF6EF431BA1B9E4009600A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAF6EF281BA1B9E4009600A5 = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF6E1BA1C4F2009600A5 /* libsqlite3.dylib */,
+				FAF6EF6C1BA1C4DE009600A5 /* libz.dylib */,
+				FAF6EF6A1BA1C4D6009600A5 /* SystemConfiguration.framework */,
+				FAF6EF661BA1C4BD009600A5 /* Security.framework */,
+				FAF6EF641BA1C4B4009600A5 /* QuartzCore.framework */,
+				FAF6EF621BA1C4AB009600A5 /* CoreLocation.framework */,
+				FAF6EF601BA1C4A4009600A5 /* CoreGraphics.framework */,
+				FAF6EF5E1BA1C49B009600A5 /* CFNetwork.framework */,
+				FAF6EF5C1BA1C492009600A5 /* AudioToolbox.framework */,
+				FAF6EF331BA1B9E4009600A5 /* ApolloAcc */,
+				FAF6EF491BA1B9E4009600A5 /* ApolloAccTests */,
+				FAF6EF321BA1B9E4009600A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAF6EF321BA1B9E4009600A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF311BA1B9E4009600A5 /* ApolloAcc.app */,
+				FAF6EF461BA1B9E4009600A5 /* ApolloAccTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAF6EF331BA1B9E4009600A5 /* ApolloAcc */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF581BA1C468009600A5 /* Bolts.framework */,
+				FAF6EF591BA1C468009600A5 /* Parse.framework */,
+				FAF6EF561BA1C406009600A5 /* parse */,
+				FAF6EF361BA1B9E4009600A5 /* AppDelegate.swift */,
+				FAF6EF381BA1B9E4009600A5 /* ViewController.swift */,
+				FAF6EF701BA1DA14009600A5 /* LoginViewController.swift */,
+				FAF6EF3A1BA1B9E4009600A5 /* Main.storyboard */,
+				FAF6EF3D1BA1B9E4009600A5 /* Images.xcassets */,
+				FAF6EF3F1BA1B9E4009600A5 /* LaunchScreen.xib */,
+				FAF6EF341BA1B9E4009600A5 /* Supporting Files */,
+			);
+			path = ApolloAcc;
+			sourceTree = "<group>";
+		};
+		FAF6EF341BA1B9E4009600A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF351BA1B9E4009600A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAF6EF491BA1B9E4009600A5 /* ApolloAccTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF4C1BA1B9E4009600A5 /* ApolloAccTests.swift */,
+				FAF6EF4A1BA1B9E4009600A5 /* Supporting Files */,
+			);
+			path = ApolloAccTests;
+			sourceTree = "<group>";
+		};
+		FAF6EF4A1BA1B9E4009600A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAF6EF4B1BA1B9E4009600A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAF6EF301BA1B9E4009600A5 /* ApolloAcc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF6EF501BA1B9E4009600A5 /* Build configuration list for PBXNativeTarget "ApolloAcc" */;
+			buildPhases = (
+				FAF6EF2D1BA1B9E4009600A5 /* Sources */,
+				FAF6EF2E1BA1B9E4009600A5 /* Frameworks */,
+				FAF6EF2F1BA1B9E4009600A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ApolloAcc;
+			productName = ApolloAcc;
+			productReference = FAF6EF311BA1B9E4009600A5 /* ApolloAcc.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAF6EF451BA1B9E4009600A5 /* ApolloAccTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAF6EF531BA1B9E4009600A5 /* Build configuration list for PBXNativeTarget "ApolloAccTests" */;
+			buildPhases = (
+				FAF6EF421BA1B9E4009600A5 /* Sources */,
+				FAF6EF431BA1B9E4009600A5 /* Frameworks */,
+				FAF6EF441BA1B9E4009600A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAF6EF481BA1B9E4009600A5 /* PBXTargetDependency */,
+			);
+			name = ApolloAccTests;
+			productName = ApolloAccTests;
+			productReference = FAF6EF461BA1B9E4009600A5 /* ApolloAccTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAF6EF291BA1B9E4009600A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = iInnovate;
+				TargetAttributes = {
+					FAF6EF301BA1B9E4009600A5 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = PT632YREQ3;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 0;
+							};
+						};
+					};
+					FAF6EF451BA1B9E4009600A5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = FAF6EF301BA1B9E4009600A5;
+					};
+				};
+			};
+			buildConfigurationList = FAF6EF2C1BA1B9E4009600A5 /* Build configuration list for PBXProject "ApolloAcc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAF6EF281BA1B9E4009600A5;
+			productRefGroup = FAF6EF321BA1B9E4009600A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAF6EF301BA1B9E4009600A5 /* ApolloAcc */,
+				FAF6EF451BA1B9E4009600A5 /* ApolloAccTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAF6EF2F1BA1B9E4009600A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6EF571BA1C406009600A5 /* parse in Resources */,
+				FAF6EF3C1BA1B9E4009600A5 /* Main.storyboard in Resources */,
+				FAF6EF411BA1B9E4009600A5 /* LaunchScreen.xib in Resources */,
+				FAF6EF3E1BA1B9E4009600A5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF6EF441BA1B9E4009600A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAF6EF2D1BA1B9E4009600A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6EF711BA1DA14009600A5 /* LoginViewController.swift in Sources */,
+				FAF6EF391BA1B9E4009600A5 /* ViewController.swift in Sources */,
+				FAF6EF371BA1B9E4009600A5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAF6EF421BA1B9E4009600A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAF6EF4D1BA1B9E4009600A5 /* ApolloAccTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAF6EF481BA1B9E4009600A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAF6EF301BA1B9E4009600A5 /* ApolloAcc */;
+			targetProxy = FAF6EF471BA1B9E4009600A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAF6EF3A1BA1B9E4009600A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF6EF3B1BA1B9E4009600A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAF6EF3F1BA1B9E4009600A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAF6EF401BA1B9E4009600A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAF6EF4E1BA1B9E4009600A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FAF6EF4F1BA1B9E4009600A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAF6EF511BA1B9E4009600A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApolloAcc/parse",
+				);
+				INFOPLIST_FILE = ApolloAcc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAF6EF521BA1B9E4009600A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ApolloAcc/parse",
+				);
+				INFOPLIST_FILE = ApolloAcc/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAF6EF541BA1B9E4009600A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApolloAccTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApolloAcc.app/ApolloAcc";
+			};
+			name = Debug;
+		};
+		FAF6EF551BA1B9E4009600A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ApolloAccTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ApolloAcc.app/ApolloAcc";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAF6EF2C1BA1B9E4009600A5 /* Build configuration list for PBXProject "ApolloAcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF6EF4E1BA1B9E4009600A5 /* Debug */,
+				FAF6EF4F1BA1B9E4009600A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF6EF501BA1B9E4009600A5 /* Build configuration list for PBXNativeTarget "ApolloAcc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF6EF511BA1B9E4009600A5 /* Debug */,
+				FAF6EF521BA1B9E4009600A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAF6EF531BA1B9E4009600A5 /* Build configuration list for PBXNativeTarget "ApolloAccTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAF6EF541BA1B9E4009600A5 /* Debug */,
+				FAF6EF551BA1B9E4009600A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAF6EF291BA1B9E4009600A5 /* Project object */;
+}

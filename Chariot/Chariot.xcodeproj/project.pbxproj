@@ -25,12 +25,16 @@
 		FA2B027C1BBC0B7B00E91F3D /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B027B1BBC0B7B00E91F3D /* libsqlite3.tbd */; };
 		FA2B027E1BBC0B8300E91F3D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FA2B027D1BBC0B8300E91F3D /* libz.tbd */; };
 		FA2B02931BBCB00A00E91F3D /* ChariotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B02921BBCB00A00E91F3D /* ChariotClass.swift */; settings = {ASSET_TAGS = (); }; };
+		FA2B02991BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B02981BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FA2B029C1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B029B1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FA2B029E1BBEAF5400E91F3D /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FAE186B61BB9869000B6F225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE186B51BB9869000B6F225 /* AppDelegate.swift */; };
 		FAE186B81BB9869000B6F225 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE186B71BB9869000B6F225 /* FirstViewController.swift */; };
-		FAE186BA1BB9869000B6F225 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE186B91BB9869000B6F225 /* SecondViewController.swift */; };
 		FAE186BD1BB9869000B6F225 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE186BB1BB9869000B6F225 /* Main.storyboard */; };
 		FAE186BF1BB9869000B6F225 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAE186BE1BB9869000B6F225 /* Assets.xcassets */; };
 		FAE186C21BB9869000B6F225 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAE186C01BB9869000B6F225 /* LaunchScreen.storyboard */; };
+		FAFF209A1BBED46E005CC265 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF20991BBED46E005CC265 /* SignInViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FAFF209C1BBED499005CC265 /* Verification.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFF209B1BBED499005CC265 /* Verification.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,14 +56,18 @@
 		FA2B027B1BBC0B7B00E91F3D /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		FA2B027D1BBC0B8300E91F3D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FA2B02921BBCB00A00E91F3D /* ChariotClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChariotClass.swift; sourceTree = "<group>"; };
+		FA2B02981BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSessionTableViewCell.swift; sourceTree = "<group>"; };
+		FA2B029B1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSessionsViewController.swift; sourceTree = "<group>"; };
+		FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 		FAE186B21BB9869000B6F225 /* Chariot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chariot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE186B51BB9869000B6F225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE186B71BB9869000B6F225 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		FAE186B91BB9869000B6F225 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		FAE186BC1BB9869000B6F225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FAE186BE1BB9869000B6F225 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FAE186C11BB9869000B6F225 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FAE186C31BB9869000B6F225 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFF20991BBED46E005CC265 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FAFF209B1BBED499005CC265 /* Verification.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Verification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,31 @@
 			name = "Parse Library";
 			sourceTree = "<group>";
 		};
+		FA2B029A1BBEAE3900E91F3D /* Accountability */ = {
+			isa = PBXGroup;
+			children = (
+				FAE186B71BB9869000B6F225 /* FirstViewController.swift */,
+			);
+			name = Accountability;
+			sourceTree = "<group>";
+		};
+		FA2B029F1BBEAF5900E91F3D /* Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */,
+			);
+			name = Sessions;
+			sourceTree = "<group>";
+		};
+		FA2B02A01BBEAF6500E91F3D /* Favorite Sessions */ = {
+			isa = PBXGroup;
+			children = (
+				FA2B029B1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift */,
+				FA2B02981BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift */,
+			);
+			name = "Favorite Sessions";
+			sourceTree = "<group>";
+		};
 		FAE186A91BB9869000B6F225 = {
 			isa = PBXGroup;
 			children = (
@@ -135,10 +168,13 @@
 			children = (
 				FAE186B51BB9869000B6F225 /* AppDelegate.swift */,
 				FA2B02921BBCB00A00E91F3D /* ChariotClass.swift */,
-				FAE186B71BB9869000B6F225 /* FirstViewController.swift */,
-				FAE186B91BB9869000B6F225 /* SecondViewController.swift */,
 				FAE186BB1BB9869000B6F225 /* Main.storyboard */,
+				FAFF20991BBED46E005CC265 /* SignInViewController.swift */,
+				FAFF209B1BBED499005CC265 /* Verification.swift */,
 				FAE186C01BB9869000B6F225 /* LaunchScreen.storyboard */,
+				FA2B029A1BBEAE3900E91F3D /* Accountability */,
+				FA2B02A01BBEAF6500E91F3D /* Favorite Sessions */,
+				FA2B029F1BBEAF5900E91F3D /* Sessions */,
 				FAE186BE1BB9869000B6F225 /* Assets.xcassets */,
 				FA2B025C1BBC0A9800E91F3D /* Parse Library */,
 				FAE186C31BB9869000B6F225 /* Info.plist */,
@@ -216,8 +252,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FAE186BA1BB9869000B6F225 /* SecondViewController.swift in Sources */,
+				FAFF209C1BBED499005CC265 /* Verification.swift in Sources */,
+				FAFF209A1BBED46E005CC265 /* SignInViewController.swift in Sources */,
+				FA2B02991BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift in Sources */,
+				FA2B029E1BBEAF5400E91F3D /* SessionsViewController.swift in Sources */,
 				FA2B02931BBCB00A00E91F3D /* ChariotClass.swift in Sources */,
+				FA2B029C1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift in Sources */,
 				FAE186B61BB9869000B6F225 /* AppDelegate.swift in Sources */,
 				FAE186B81BB9869000B6F225 /* FirstViewController.swift in Sources */,
 			);

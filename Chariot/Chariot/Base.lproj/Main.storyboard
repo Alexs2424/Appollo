@@ -6,10 +6,10 @@
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Sign In View Controller-->
         <scene sceneID="2II-Sc-nd9">
             <objects>
-                <viewController id="PwS-rV-ZsJ" sceneMemberID="viewController">
+                <viewController id="PwS-rV-ZsJ" customClass="SignInViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="LJ2-pp-Ulf"/>
                         <viewControllerLayoutGuide type="bottom" id="YB0-DN-ccd"/>
@@ -80,6 +80,9 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Sign In"/>
+                                <connections>
+                                    <action selector="signIn:" destination="PwS-rV-ZsJ" eventType="touchUpInside" id="bVu-g9-nOi"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qWD-1R-R8I">
                                 <rect key="frame" x="193" y="134" width="215" height="21"/>

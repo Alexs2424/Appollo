@@ -29,6 +29,37 @@ struct Verification {
         self.password = password
     }
     
+    func requestVerificationData() -> (NSMutableURLRequest, NSString) {
+        
+        let url:NSURL = NSURL(string: self.urlLink)!
+        
+        let request:NSMutableURLRequest = NSMutableURLRequest(URL: url.standardizedURL!)
+        
+        request.HTTPMethod = "POST"
+        
+        let sendingData = NSString(format: "username=%@&password=%@&apikey=%@", self.username, (self.password)!, self.apiKey)
+        
+        request.setValue("application/x-www-form-urlencoded; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        
+        request.HTTPBody = sendingData.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        return (request, sendingData)
+    }
     
+    func requestNameData() -> (NSMutableURLRequest, NSString) {
+        let url:NSURL = NSURL(string: self.urlLink)!
+        
+        let request:NSMutableURLRequest = NSMutableURLRequest(URL: url.standardizedURL!)
+        
+        request.HTTPMethod = "POST"
+        
+        let sendingData = NSString(format: "username=%@&apikey=%@", self.username, self.apiKey)
+        
+        request.setValue("application/x-www-form-urlencoded; charset=utf-8", forHTTPHeaderField: "Content-Type")
+        
+        request.HTTPBody = sendingData.dataUsingEncoding(NSUTF8StringEncoding)
+        
+        return (request, sendingData)
+    }
     
 }

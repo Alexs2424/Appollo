@@ -109,18 +109,17 @@ class LoginViewController: UIViewController, NSURLConnectionDataDelegate {
             self.titleLabel.text = "Please Tap Continue"
             
         } else {
-            println("Incorrect username or password.")
+            print("Incorrect username or password.")
             verified = false
             self.titleLabel.text = "Incorrect username or password."
         }
     }
     
     @IBAction func login(sender: AnyObject) {
-        self.studentVerification(self.usernameField.text, password: self.passwordField.text)
-        if verified {
-            println("Login was successful!")
+        self.studentVerification(self.usernameField.text, password: self.passwordField.text!)        if verified {
+            pprint"Login was successful!")
         } else {
-            println("Login was unsuccessful.")
+            pprint"Login was unsuccessful.")
         }
     }
     

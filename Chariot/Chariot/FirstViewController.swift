@@ -33,10 +33,10 @@ class FirstViewController: UIViewController {
     }
     
     override func viewDidAppear(animated: Bool) {
-        if NSUserDefaults.standardUserDefaults().objectForKey("Intro") == nil {
+        if NSUserDefaults.standardUserDefaults().objectForKey("INTRO") == nil {
             //Go to the login view.
-            
-            print("User needs to login.")  
+            print("User has not been signed in yet.. There is an issue.")
+
         }
     }
     

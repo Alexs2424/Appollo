@@ -171,9 +171,10 @@ class SignInViewController: UIViewController, NSURLConnectionDataDelegate {
         //Continue back to the main screen
         print("Continue Button is pressed, This is going to the tabview.")
         //This should set the NSUSERDefault for being signed in.
+        NSUserDefaults.standardUserDefaults().setObject("SEEN", forKey: "INTRO")
         //Remember to make the tab view the inital controller.
         
-        let homeController = self.storyboard!.instantiateViewControllerWithIdentifier("home") as! FirstViewController
+        let homeController = self.storyboard!.instantiateViewControllerWithIdentifier("home") as! HomeTabViewController
         self.presentViewController(homeController, animated: true, completion: nil)
     }
     

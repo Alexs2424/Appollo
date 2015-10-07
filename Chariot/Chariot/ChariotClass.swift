@@ -57,5 +57,30 @@ class Chariot {
         }
     }
     
+    /***** ANIMATION FUNCTIONS *****/
+    
+    func fadeAnimateUILabel(label: UILabel, duration: NSTimeInterval, alpha: CGFloat) {
+        UIView.animateWithDuration(duration, animations: {
+            label.alpha = alpha
+        })
+    }
+    
+    func fadeAnimateUITextField(field: UITextField, duration:NSTimeInterval, alpha: CGFloat) {
+        UIView.animateWithDuration(duration, animations: {
+            field.alpha = alpha
+        })
+    }
+    
+    func fadeAnimateUIImageView(imageView: UIImageView, duration:NSTimeInterval, alpha: CGFloat) {
+        UIView.animateWithDuration(duration, animations: {
+            imageView.alpha = alpha
+        })
+    }
+    
+    func fadeAnimateUIButton(button: UIButton, duration: NSTimeInterval, alpha: CGFloat) {
+        UIView.animateWithDuration(duration, animations: {
+            button.alpha = alpha
+        })
+    }
     
 }

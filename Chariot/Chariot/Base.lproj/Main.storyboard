@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B22c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PwS-rV-ZsJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PwS-rV-ZsJ">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -25,12 +25,20 @@
                                     <action selector="reisgnKeyboard:" destination="PwS-rV-ZsJ" eventType="touchUpInside" id="4Va-FW-TXs"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.0" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Correct" translatesAutoresizingMaskIntoConstraints="NO" id="DQf-gr-ciH">
+                                <rect key="frame" x="235" y="134" width="130" height="130"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="130" id="Gm1-5B-IPc"/>
+                                    <constraint firstAttribute="width" constant="130" id="XXa-53-7F7"/>
+                                </constraints>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sign In" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jaR-5e-lA8">
-                                <rect key="frame" x="244" y="66" width="112" height="38"/>
+                                <rect key="frame" x="147" y="66" width="306" height="38"/>
                                 <animations/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="38" id="EEh-LX-qOc"/>
-                                    <constraint firstAttribute="width" constant="112" id="tYp-75-b3O"/>
+                                    <constraint firstAttribute="width" constant="306" id="tYp-75-b3O"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -102,15 +110,31 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Cf-VH-VOa">
+                                <rect key="frame" x="254" y="546" width="93" height="38"/>
+                                <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="C5Q-I1-aob"/>
+                                    <constraint firstAttribute="width" constant="93" id="fF0-gM-56P"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Continue"/>
+                                <connections>
+                                    <action selector="continueButton:" destination="PwS-rV-ZsJ" eventType="touchUpInside" id="7jd-Cd-rfk"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
+                            <constraint firstItem="DQf-gr-ciH" firstAttribute="top" secondItem="jaR-5e-lA8" secondAttribute="bottom" constant="30" id="1D7-nO-u2C"/>
                             <constraint firstItem="asT-9i-EaC" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="1M2-7h-3lm"/>
                             <constraint firstItem="asT-9i-EaC" firstAttribute="top" secondItem="qWD-1R-R8I" secondAttribute="bottom" constant="8" id="Bcf-IZ-KmU"/>
                             <constraint firstItem="6Eq-Yg-dxk" firstAttribute="top" secondItem="asT-9i-EaC" secondAttribute="bottom" constant="18" id="D6e-c7-AwS"/>
+                            <constraint firstItem="DQf-gr-ciH" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="NjW-eD-NT5"/>
                             <constraint firstItem="ZBM-c7-WUo" firstAttribute="height" secondItem="Ic6-jt-joK" secondAttribute="height" id="SPD-eO-DuM"/>
                             <constraint firstItem="ffP-H7-uHg" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="WGd-sW-DuC"/>
+                            <constraint firstItem="YB0-DN-ccd" firstAttribute="top" secondItem="9Cf-VH-VOa" secondAttribute="bottom" constant="16" id="Xgp-xY-vH5"/>
                             <constraint firstItem="ZBM-c7-WUo" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="af5-zd-okj"/>
                             <constraint firstItem="Cqc-B2-iEd" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="cMR-sW-sJd"/>
                             <constraint firstItem="6Eq-Yg-dxk" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="cXc-as-xHb"/>
@@ -123,12 +147,17 @@
                             <constraint firstItem="s21-WD-70J" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="sjF-W9-o4K"/>
                             <constraint firstItem="Cqc-B2-iEd" firstAttribute="top" secondItem="LJ2-pp-Ulf" secondAttribute="bottom" id="tCK-80-VyM"/>
                             <constraint firstItem="YB0-DN-ccd" firstAttribute="top" secondItem="s21-WD-70J" secondAttribute="bottom" constant="20" id="w92-Wx-qOG"/>
+                            <constraint firstItem="9Cf-VH-VOa" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="zvk-jJ-XYl"/>
                             <constraint firstItem="qWD-1R-R8I" firstAttribute="centerX" secondItem="Ic6-jt-joK" secondAttribute="centerX" id="zwM-Z5-Bsl"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="continueButton" destination="9Cf-VH-VOa" id="leB-lT-lg3"/>
+                        <outlet property="imageView" destination="DQf-gr-ciH" id="Ff0-qE-6HJ"/>
                         <outlet property="passwordField" destination="ffP-H7-uHg" id="VMg-HZ-x2e"/>
                         <outlet property="passwordLabel" destination="6Eq-Yg-dxk" id="fAj-6g-2Pb"/>
+                        <outlet property="signInButton" destination="s21-WD-70J" id="t5n-Y6-eUS"/>
+                        <outlet property="signInLabel" destination="jaR-5e-lA8" id="Y5P-yP-OoU"/>
                         <outlet property="usernameField" destination="asT-9i-EaC" id="Prm-Eh-4jd"/>
                         <outlet property="usernameLabel" destination="qWD-1R-R8I" id="LGa-KW-6TL"/>
                         <outlet property="welcomeLabel" destination="Cqc-B2-iEd" id="gI5-Ha-5at"/>
@@ -141,7 +170,7 @@
         <!--Attn-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
-                <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="home" id="9pv-A4-QxB" customClass="FirstViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ia1-K6-d13"/>
                         <viewControllerLayoutGuide type="bottom" id="4ug-Mw-9AY"/>
@@ -367,7 +396,7 @@
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="90" id="zps-1E-aYl" customClass="FavoriteSessionTableViewCell" customModule="Chariot" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="favSessionId" rowHeight="90" id="zps-1E-aYl" customClass="FavoriteSessionTableViewCell" customModule="Chariot" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="600" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zps-1E-aYl" id="k1w-Bf-Wgw">
@@ -444,7 +473,7 @@
                                 <animations/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Xe8-F7-vF7">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="sessionId" id="Xe8-F7-vF7">
                                         <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xe8-F7-vF7" id="8tS-tF-mNE">
@@ -464,7 +493,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="z01-Vt-gDM" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="692" y="984"/>
+            <point key="canvasLocation" x="692" y="982"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -490,6 +519,7 @@
     </scenes>
     <resources>
         <image name="Accounting Tab" width="25" height="25"/>
+        <image name="Correct" width="256" height="256"/>
         <image name="Favorited Sessions" width="25" height="25"/>
         <image name="Full Sessions Tab" width="25" height="25"/>
     </resources>

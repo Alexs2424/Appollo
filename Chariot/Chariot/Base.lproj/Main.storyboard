@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B22c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="49e-Tb-3d3">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
@@ -167,7 +167,7 @@
             </objects>
             <point key="canvasLocation" x="-789" y="0.0"/>
         </scene>
-        <!--Attn-->
+        <!--Places-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
@@ -361,7 +361,7 @@
                             <constraint firstItem="fnf-tn-4mI" firstAttribute="width" secondItem="tsR-hK-woN" secondAttribute="width" id="yw9-0n-IOR"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Attn" image="Accounting Tab" id="acW-dT-cKf"/>
+                    <tabBarItem key="tabBarItem" title="Places" image="Accounting Tab" id="acW-dT-cKf"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
                         <outlet property="placeLabel" destination="c0e-Eg-Bcr" id="3g4-vp-taG"/>
@@ -400,11 +400,11 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="90"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zps-1E-aYl" id="k1w-Bf-Wgw">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="89.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="89"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Session Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4FO-GC-4Io">
-                                                    <rect key="frame" x="88" y="8" width="118" height="20.5"/>
+                                                    <rect key="frame" x="88" y="8" width="118" height="21"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -413,10 +413,10 @@
                                                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ri2-rS-JXz">
                                                     <rect key="frame" x="22" y="32" width="25" height="25"/>
                                                     <animations/>
-                                                    <state key="normal" image="Favorited Sessions"/>
+                                                    <state key="normal" image="Favorited Sessions Tab"/>
                                                 </button>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This will be a description of the sessions offered" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zmG-YK-U31">
-                                                    <rect key="frame" x="88" y="32" width="484" height="49.5"/>
+                                                    <rect key="frame" x="88" y="32" width="484" height="50"/>
                                                     <animations/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -443,7 +443,7 @@
                             <constraint firstItem="vPa-mx-oPs" firstAttribute="centerX" secondItem="QS5-Rx-YEW" secondAttribute="centerX" id="o66-mo-azn"/>
                         </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="My Sessions" image="Favorited Sessions" id="cPa-gy-q4n"/>
+                    <tabBarItem key="tabBarItem" title="My Sessions" image="Favorited Sessions Tab" id="cPa-gy-q4n"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
@@ -480,7 +480,7 @@
                                         <rect key="frame" x="0.0" y="28" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Xe8-F7-vF7" id="8tS-tF-mNE">
-                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <animations/>
                                         </tableViewCellContentView>
@@ -503,6 +503,26 @@
             </objects>
             <point key="canvasLocation" x="692" y="982"/>
         </scene>
+        <!--Announcements-->
+        <scene sceneID="ENn-6P-n44">
+            <objects>
+                <viewController id="Bke-H9-Lrv" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="UZq-oK-vXZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="yPG-lm-9ud"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HQp-xC-78f">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Announcements" image="Announcements Tab" id="BmK-iT-0mV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cL1-hi-C4Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="1641"/>
+        </scene>
         <!--Home Tab View Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -518,17 +538,41 @@
                         <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                         <segue destination="1LB-6a-xWo" kind="relationship" relationship="viewControllers" id="w3i-H2-ak6"/>
+                        <segue destination="Bke-H9-Lrv" kind="relationship" relationship="viewControllers" id="EMP-bm-qa1"/>
+                        <segue destination="nbU-CS-YPX" kind="relationship" relationship="viewControllers" id="Z9k-ck-jas"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Help-->
+        <scene sceneID="qEL-96-Xos">
+            <objects>
+                <viewController id="nbU-CS-YPX" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7Rt-Sr-cFq"/>
+                        <viewControllerLayoutGuide type="bottom" id="qFg-b0-0bq"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8BW-za-lqp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Help" image="Help Tab" id="dgA-2r-qUS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Yst-uw-8LF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="692" y="2333"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Accounting Tab" width="25" height="25"/>
+        <image name="Accounting Tab" width="37" height="37"/>
+        <image name="Announcements Tab" width="37" height="37"/>
         <image name="Correct" width="256" height="256"/>
-        <image name="Favorited Sessions" width="25" height="25"/>
-        <image name="Full Sessions Tab" width="25" height="25"/>
+        <image name="Favorited Sessions Tab" width="37" height="37"/>
+        <image name="Full Sessions Tab" width="37" height="37"/>
+        <image name="Help Tab" width="37" height="37"/>
     </resources>
 </document>

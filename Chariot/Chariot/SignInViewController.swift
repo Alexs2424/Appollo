@@ -92,11 +92,13 @@ class SignInViewController: UIViewController, NSURLConnectionDataDelegate {
         /** VERIFICATION SECTION END **/
         let name = responseString
         print(name)
+        NSUserDefaults.standardUserDefaults().setObject(name, forKey: "FULLNAME")
         let nameArray = name.componentsSeparatedByString(" ")
         firstName = nameArray[0]
         lastName = nameArray[1]
         NSUserDefaults.standardUserDefaults().setObject(firstName, forKey: "FIRSTNAME")
         NSUserDefaults.standardUserDefaults().setObject(lastName, forKey: "LASTNAME")
+        NSUserDefaults.standardUserDefaults().synchronize()
         self.welcomeLabel.text = NSString(format: "Welcome, %@!", firstName) as String
         
 
@@ -157,7 +159,7 @@ class SignInViewController: UIViewController, NSURLConnectionDataDelegate {
         
         //Animate the Image View
         chariot.fadeAnimateUIImageView(self.imageView, duration: 2.0, alpha: 1.0)
-        
+
         //Animate the Sign-In Button away from the view
         chariot.fadeAnimateUIButton(self.signInButton, duration: 1.0, alpha: 0.0)
     

@@ -16,15 +16,19 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var timeLabel: UILabel!
     
     
-    //temporary for testing
-    var myUsername = "17asantarelli"
+    
+    var fullname = ""
+    
     
     var chariotClass = Chariot()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-    
-        
+        if NSUserDefaults.standardUserDefaults().stringForKey("INTRO") == nil {
+            return
+        }
+        //Taking the full name of the student
+        fullname = NSUserDefaults.standardUserDefaults().stringForKey("FULLNAME")!
     }
 
     override func didReceiveMemoryWarning() {
@@ -35,7 +39,9 @@ class FirstViewController: UIViewController {
     override func viewDidAppear(animated: Bool) {
         if NSUserDefaults.standardUserDefaults().objectForKey("INTRO") == nil {
             //Go to the login view.
-            print("User has not been signed in yet.. There is an issue.")
+            let loginController = self.storyboard!.instantiateViewControllerWithIdentifier("intro") as! SignInViewController
+            self.presentViewController(loginController, animated: true, completion: nil)
+            print("User has not been signed in yet..")
 
         }
     }
@@ -45,27 +51,27 @@ class FirstViewController: UIViewController {
     }
 
     @IBAction func studentWorkArea(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("StudentWorkArea", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("StudentWorkArea", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
 
     @IBAction func mrGrandi(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("Grandi", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("Grandi", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
     
     @IBAction func mrWimmer(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("Wimmer", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("Wimmer", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
     
     @IBAction func library(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("Library", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("Library", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
     
     @IBAction func mrWard(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("Ward", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("Ward", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
     
     @IBAction func downstairs600WorkArea(sender: AnyObject) {
-        self.chariotClass.createPlaceParseObject("Downstairs", studentUsername: myUsername, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
+        self.chariotClass.createPlaceParseObject("Downstairs", studentUsername: fullname, whereLabel: self.placeLabel, timeLabel: self.timeLabel)
     }
     
     

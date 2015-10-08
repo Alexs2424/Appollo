@@ -461,9 +461,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pmI-c5-wOd">
+                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pmI-c5-wOd">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
                                 <animations/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="dCF-1m-jAp"/>
+                                </constraints>
                                 <items>
                                     <navigationItem title="Title" id="k7b-Hu-zaJ"/>
                                 </items>
@@ -488,6 +491,11 @@
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="pmI-c5-wOd" firstAttribute="width" secondItem="Nkd-cr-CnQ" secondAttribute="width" id="Bjq-52-AA6"/>
+                            <constraint firstItem="pmI-c5-wOd" firstAttribute="centerX" secondItem="Nkd-cr-CnQ" secondAttribute="centerX" id="aiT-6T-a4I"/>
+                            <constraint firstItem="pmI-c5-wOd" firstAttribute="top" secondItem="Nkd-cr-CnQ" secondAttribute="topMargin" id="cJn-OO-YlJ"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Sessions" image="Full Sessions Tab" id="YDg-Q3-xc3"/>
                 </viewController>

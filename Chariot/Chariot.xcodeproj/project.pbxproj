@@ -28,6 +28,8 @@
 		FA2B02991BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B02981BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift */; settings = {ASSET_TAGS = (); }; };
 		FA2B029C1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B029B1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FA2B029E1BBEAF5400E91F3D /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		FA2BF3211BC7ED19009AD270 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BF3201BC7ED19009AD270 /* CustomCell.swift */; settings = {ASSET_TAGS = (); }; };
+		FA2BF3231BC7F003009AD270 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2BF3221BC7F003009AD270 /* TableViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FA3087581BC5494E0072E30D /* HomeTabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3087571BC5494E0072E30D /* HomeTabViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		FAE186B61BB9869000B6F225 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE186B51BB9869000B6F225 /* AppDelegate.swift */; };
 		FAE186B81BB9869000B6F225 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAE186B71BB9869000B6F225 /* FirstViewController.swift */; };
@@ -60,6 +62,8 @@
 		FA2B02981BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSessionTableViewCell.swift; sourceTree = "<group>"; };
 		FA2B029B1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteSessionsViewController.swift; sourceTree = "<group>"; };
 		FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
+		FA2BF3201BC7ED19009AD270 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		FA2BF3221BC7F003009AD270 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FA3087571BC5494E0072E30D /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
 		FAE186B21BB9869000B6F225 /* Chariot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chariot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE186B51BB9869000B6F225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -125,6 +129,8 @@
 		FA2B029F1BBEAF5900E91F3D /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
+				FA2BF3221BC7F003009AD270 /* TableViewController.swift */,
+				FA2BF3201BC7ED19009AD270 /* CustomCell.swift */,
 				FA2B029D1BBEAF5400E91F3D /* SessionsViewController.swift */,
 			);
 			name = Sessions;
@@ -265,9 +271,11 @@
 			files = (
 				FAFF209C1BBED499005CC265 /* Verification.swift in Sources */,
 				FAFF209A1BBED46E005CC265 /* SignInViewController.swift in Sources */,
+				FA2BF3211BC7ED19009AD270 /* CustomCell.swift in Sources */,
 				FA2B02991BBD837A00E91F3D /* FavoriteSessionTableViewCell.swift in Sources */,
 				FA2B029E1BBEAF5400E91F3D /* SessionsViewController.swift in Sources */,
 				FA2B02931BBCB00A00E91F3D /* ChariotClass.swift in Sources */,
+				FA2BF3231BC7F003009AD270 /* TableViewController.swift in Sources */,
 				FA3087581BC5494E0072E30D /* HomeTabViewController.swift in Sources */,
 				FA2B029C1BBEAF1500E91F3D /* FavoriteSessionsViewController.swift in Sources */,
 				FAE186B61BB9869000B6F225 /* AppDelegate.swift in Sources */,

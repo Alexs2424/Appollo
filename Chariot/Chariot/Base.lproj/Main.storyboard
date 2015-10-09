@@ -452,15 +452,23 @@
         <!--Sessions-->
         <scene sceneID="FsX-V2-Hph">
             <objects>
-                <tableViewController id="iuu-x9-CXc" customClass="TableViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController title="Sessions" id="iuu-x9-CXc" customClass="TableViewController" customModule="Chariot" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="50" sectionHeaderHeight="28" sectionFooterHeight="28" id="K5h-Ej-bVi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <navigationBar key="tableHeaderView" contentMode="scaleToFill" id="9bp-H3-mlX">
+                            <rect key="frame" x="0.0" y="0.0" width="600" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <animations/>
+                            <items>
+                                <navigationItem title="Sessions" id="WmG-wv-DgT"/>
+                            </items>
+                        </navigationBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="50" id="FSY-eO-FNA" customClass="CustomCell" customModule="Chariot" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="600" height="50"/>
+                                <rect key="frame" x="0.0" y="72" width="600" height="50"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="FSY-eO-FNA" id="a2Y-GG-IMV">
                                     <rect key="frame" x="0.0" y="0.0" width="600" height="49.5"/>
@@ -521,6 +529,7 @@
                         </connections>
                     </tableView>
                     <tabBarItem key="tabBarItem" title="Sessions" image="Full Sessions Tab" id="g4N-wT-4SG"/>
+                    <nil key="simulatedTopBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RR0-3p-jiD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

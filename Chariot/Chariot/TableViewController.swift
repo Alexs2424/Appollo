@@ -13,6 +13,9 @@ import ParseUI
 
 class TableViewController: PFQueryTableViewController {
     
+    var teacher:NSString = ""
+    
+    
     override init(style: UITableViewStyle, className: String!) {
         super.init(style: style, className: className)
     }
@@ -50,37 +53,39 @@ class TableViewController: PFQueryTableViewController {
             cell.sessionTime.text = sessionTime
         }
         
-        // Display flag image
-        /*
-        var initialThumbnail = UIImage(named: "question")
-        cell.customFlag.image = initialThumbnail
-        if let thumbnail = object?["flag"] as? PFFile {
-            cell.customFlag.file = thumbnail
-            cell.customFlag.loadInBackground()
+        if let sessionTeacher = object?["Teacher"] as? NSString {
+            teacher = sessionTeacher
         }
-        */
+        
+        
+        /* CHECKING WHICH TEACHER IS WHICH
+        TO ASSIGN THE IMEAGES TO EACH ONE. */
+        
+        
+        if teacher.isEqualToString("Wimmer") {
+            let wimmerImage = UIImage(named: "Wimmer Star")!
+            cell.sessionStar.image = wimmerImage
+        } else if teacher.isEqualToString("Grandi") {
+            let grandiImage = UIImage(named: "Grandi Star")!
+            cell.sessionStar.image = grandiImage
+        } else {
+            let wardImage = UIImage(named: "Ward Star")!
+            cell.sessionStar.image = wardImage
+        }
+
+        
         return cell
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

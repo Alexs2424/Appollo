@@ -15,5 +15,7 @@ class CustomCell : PFTableViewCell {
     @IBOutlet weak var sessionTitle: UILabel!
     @IBOutlet weak var sessionTime: UILabel!
     @IBOutlet weak var sessionDescription: UITextView!
+    
+    @IBOutlet weak var sessionStarButton: UIButton!
     @IBOutlet weak var sessionStar: UIImageView!
 }

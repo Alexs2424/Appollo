@@ -63,6 +63,7 @@
 		FA2BF3201BC7ED19009AD270 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 		FA2BF3221BC7F003009AD270 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		FA3087571BC5494E0072E30D /* HomeTabViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTabViewController.swift; sourceTree = "<group>"; };
+		FACCC4FA1BCD2C3800538E52 /* DictionaryPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = DictionaryPlayground.playground; sourceTree = "<group>"; };
 		FAE186B21BB9869000B6F225 /* Chariot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Chariot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAE186B51BB9869000B6F225 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FAE186B71BB9869000B6F225 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -179,6 +180,7 @@
 		FAE186B41BB9869000B6F225 /* Chariot */ = {
 			isa = PBXGroup;
 			children = (
+				FACCC4FA1BCD2C3800538E52 /* DictionaryPlayground.playground */,
 				FAE186B51BB9869000B6F225 /* AppDelegate.swift */,
 				FA2B02921BBCB00A00E91F3D /* ChariotClass.swift */,
 				FAFF209B1BBED499005CC265 /* Verification.swift */,

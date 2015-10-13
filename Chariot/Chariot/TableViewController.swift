@@ -64,13 +64,13 @@ class TableViewController: PFQueryTableViewController {
         
         if teacher.isEqualToString("Wimmer") {
             let wimmerImage = UIImage(named: "Wimmer Star")!
-            cell.sessionStar.image = wimmerImage
+            cell.sessionStarButton.setImage(wimmerImage, forState: .Normal)
         } else if teacher.isEqualToString("Grandi") {
             let grandiImage = UIImage(named: "Grandi Star")!
-            cell.sessionStar.image = grandiImage
+            cell.sessionStarButton.setImage(grandiImage, forState: .Normal)
         } else {
             let wardImage = UIImage(named: "Ward Star")!
-            cell.sessionStar.image = wardImage
+            cell.sessionStarButton.setImage(wardImage, forState: .Normal)
         }
 
         
@@ -81,8 +81,12 @@ class TableViewController: PFQueryTableViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.tableView.contentInset = UIEdgeInsetsMake(20, 0, 0, 0);
-
         
+        //Fav is not the offical NSUSERDEfault, it is just until there
+        //is close to a final version.
+        if (NSUserDefaults.standardUserDefaults().objectForKey("FAV") == nil) {
+            print("No objects should be favroited.")
+        }
     }
 
     override func didReceiveMemoryWarning() {

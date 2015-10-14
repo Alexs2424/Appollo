@@ -2,6 +2,10 @@
 Apollo's attendance and accountability system for students.
 The goal of Appollo is to simplify accountability for teachers and students.
 
+#State of Appollo 
+Appollo is currently in "construction" and will be posted for every one to see once, we get closer to launch.
+Already the interface has changed from the picture below and we are beginning to push the bounds of what is possible.
+
 #Appollo App Icon <br />
 <img src="https://cloud.githubusercontent.com/assets/7905177/9851635/b9d1fa16-5ac7-11e5-86a3-603d8a66a4db.png" width="100px" height="100px" style="border-radius: 25px;" />
 
